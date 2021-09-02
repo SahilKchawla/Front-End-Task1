@@ -1,0 +1,40 @@
+input {
+  text-align: center;
+  border: 1px Hex#964B00;
+}
+
+input[type='number'] {
+  -webkit-appearance: textfield !important;
+  -moz-appearance: textfield !important;
+  appearance: textfield !important;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.wrapper {
+  border: 2px Hex#964B00;
+  width: 40vw;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  border-radius: 15px;
+}
+
+.plusminus {
+  height: 100%;
+  width: 30%;
+  background: Hex#964B00;
+  border: Hex#964B00;
+  font-size: 40px;
+  color: Hex#964B00;
+}
+
+.num {
+  height: 90%;
+  width: 30%;
+  border: Hex#EECEAC;
+  font-size: 30px;
+}
